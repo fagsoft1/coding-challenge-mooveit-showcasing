@@ -16,11 +16,53 @@ import {
 function App() {
     const items = [
         {text: 'Index', link_to: '/index', filename: 'Readme.md'},
-        {text: 'InputText', link_to: '/InputText', filename: 'InputText.md'},
-        {text: 'InputNumber', link_to: '/InputNumber', filename: 'InputNumber.md'},
+        {
+            text: 'InputLabel',
+            link_to: '/InputLabel',
+            filename: 'InputLabel.md',
+            componentChildren: [
+                {to: '/InputBase', name: 'InputBase'},
+                {to: '/SelectInput', name: 'SelectInput'},
+            ]
+        },
+        {
+            text: 'InputBase',
+            link_to: '/InputBase',
+            filename: 'InputBase.md',
+            componentParents: [{to: '/InputLabel', name: 'InputLabel'}],
+            componentChildren: [
+                {to: '/InputText', name: 'InputText'},
+                {to: '/InputNumber', name: 'InputNumber'},
+            ]
+        },
+        {
+            text: 'InputText',
+            link_to: '/InputText',
+            filename: 'InputText.md',
+            componentParents: [{to: '/InputBase', name: 'InputBase'}],
+            componentChildren: [{to: '/Autocomplete', name: 'Autocomplete'}]
+        },
+        {
+            text: 'InputNumber',
+            link_to: '/InputNumber',
+            filename: 'InputNumber.md',
+            componentParents: [{to: '/InputBase', name: 'InputBase'}]
+        },
         {text: 'Button', link_to: '/Button', filename: 'Button.md'},
-        {text: 'Autocomplete', link_to: '/Autocomplete', filename: 'Autocomplete.md'},
-        {text: 'SelectInput', link_to: '/SelectInput', filename: 'SelectInput.md'},
+        {
+            text: 'Autocomplete',
+            link_to: '/Autocomplete',
+            filename: 'Autocomplete.md',
+            componentParents: [
+                {to: '/InputText', name: 'InputText'}
+            ]
+        },
+        {
+            text: 'SelectInput',
+            link_to: '/SelectInput',
+            filename: 'SelectInput.md',
+            componentParents: [{to: '/InputLabel', name: 'InputLabel'}]
+        },
     ]
     return (
         <Router>
@@ -35,7 +77,8 @@ function App() {
                     <Switch>
                         {items.map(item => <Route path={item.link_to} key={item.link_to}>
                             <div>
-                                <MarkdownRender filename={item.filename}/>
+                                <MarkdownRender filename={item.filename} componentParents={item.componentParents}
+                                                componentChildren={item.componentChildren}/>
                             </div>
                         </Route>)}
                     </Switch>
