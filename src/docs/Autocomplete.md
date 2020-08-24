@@ -25,4 +25,4 @@ The autocomplete is a normal text input enhanced by a panel of suggested options
 | className| 	string ||  |
 | disabled    | boolean |False| To enable or disable the component |
 | onChange	    | ((e: ChangeEvent<HTMLInputElement>) => void) or undefined || To handle onChange event |
-| options	    | Array || Options to show up by the component |
+| options	    | Array || Options to show up by the component|
