@@ -20,17 +20,6 @@ To help you to track your progress, a **✓** character will be show in up besid
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites    
-To install them, just run:
-
-    // with npm
-    npm install react
-    npm install react-dom
-
-    // with yarn
-    yarn add react
-    yarn add react-dom
-
 ### Installing
 
 Mooveit Showcasing Fagsoft is available from GitHub.
@@ -52,6 +41,7 @@ https://github.com/fagsoft1/coding-challenge-mooveit-showcasing.git
 * [ReactJs](https://reactjs.org/) - The web framework used
 * [Redux](https://redux.js.org/) - State Management
 * [npm](https://www.npmjs.com/) - Dependency Management
+* [MooveIt Library Fagsoft](https://github.com/fagsoft1/mooveit-library) - UI Library
 
 ## Authors
 
