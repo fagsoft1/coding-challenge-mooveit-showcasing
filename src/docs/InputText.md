@@ -7,12 +7,43 @@ Text fields let users enter and edit text when creating form or components.
     import {InputText} from 'mooveit-library-fagsoft';
 
 ## Examples
-<p>The TextField wrapper component is a complete form control including a label, input and help text.</p>
+### label
 
     import {InputText} from 'mooveit-library-fagsoft';
-    <InputText name={'text_input_text'} label={'The Input Text'}/>
+    <InputText name='input_name' label='The CUSTOM Label'/>
     
-<InputText label='Nombre'/>
+<InputText label='The CUSTOM Label' name='input_name'/>
+
+### disabled
+    import {InputText} from 'mooveit-library-fagsoft';
+    <InputText name='input_name' label='The Label' disabled={true} />
+
+<InputText name='input_name' label='The Label' disabled={true} />
+
+### value
+Using margin
+
+    import {InputText} from 'mooveit-library-fagsoft';
+    <InputText name='input_name' label='The Label' value='Initial' />
+
+<InputText name='input_name' label='The Label' value='Initial' />
+
+### className
+Using margin
+
+    import {InputText} from 'mooveit-library-fagsoft';
+    <InputText name='input_name' label='The Label' className="m-4" />
+
+<InputText name='input_name' label='The Label' className="m-4" />
+
+### placeholder
+Using margin
+
+    import {InputText} from 'mooveit-library-fagsoft';
+    <InputText name='input_name' label='The Label' placeholder="El placeholder" />
+
+<InputText name='input_name' label='The Label' placeholder="El placeholder" />
+
 
 ### PROPS & METHODS
 
@@ -20,11 +51,10 @@ Text fields let users enter and edit text when creating form or components.
 | --------- |-------|-------|-------|
 | label    | 	string |Required| Label to display |
 | name    | 	string |Required| Component's Name |
+| placeholder| 	string ||Placeholder|
 | value    | 	string || Component's value |
 | palette |"primary" or "secondary" |"primary"| Define with palette will be used |
 | className| 	string ||  |
 | disabled    | boolean |False| To enable or disable the component |
 | onChange	    | ((e: ChangeEvent<HTMLInputElement>) => void) or undefined || To handle onChange event |
-| onKeyDown	    | ((e: KeyboardEvent<HTMLInputElement>) => void) or undefined || To handle onKeyDown event |
-| onKeyUp	    | ((e: KeyboardEvent<HTMLInputElement>) => void) or undefined || To handle onKeyUp event |
     

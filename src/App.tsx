@@ -15,26 +15,7 @@ import {
 
 function App() {
     const items = [
-        {text: 'Index', link_to: '/index', filename: 'Readme.md'},
-        {
-            text: 'InputLabel',
-            link_to: '/InputLabel',
-            filename: 'InputLabel.md',
-            componentChildren: [
-                {to: '/InputBase', name: 'InputBase'},
-                {to: '/SelectInput', name: 'SelectInput'},
-            ]
-        },
-        {
-            text: 'InputBase',
-            link_to: '/InputBase',
-            filename: 'InputBase.md',
-            componentParents: [{to: '/InputLabel', name: 'InputLabel'}],
-            componentChildren: [
-                {to: '/InputText', name: 'InputText'},
-                {to: '/InputNumber', name: 'InputNumber'},
-            ]
-        },
+        {text: 'Getting Started', link_to: '/index', filename: 'Readme.md'},
         {
             text: 'InputText',
             link_to: '/InputText',
@@ -62,6 +43,26 @@ function App() {
             link_to: '/SelectInput',
             filename: 'SelectInput.md',
             componentParents: [{to: '/InputLabel', name: 'InputLabel'}]
+        },
+        {text: 'Styles', link_to: '/styles', filename: 'Styles.md'},
+        {
+            text: 'InputLabel',
+            link_to: '/InputLabel',
+            filename: 'InputLabel.md',
+            componentChildren: [
+                {to: '/InputBase', name: 'InputBase'},
+                {to: '/SelectInput', name: 'SelectInput'},
+            ]
+        },
+        {
+            text: 'InputBase',
+            link_to: '/InputBase',
+            filename: 'InputBase.md',
+            componentParents: [{to: '/InputLabel', name: 'InputLabel'}],
+            componentChildren: [
+                {to: '/InputText', name: 'InputText'},
+                {to: '/InputNumber', name: 'InputNumber'},
+            ]
         },
     ]
     return (

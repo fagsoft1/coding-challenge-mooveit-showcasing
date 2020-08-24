@@ -7005,10 +7005,10 @@ mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.5"
 
-mooveit-library-fagsoft@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/mooveit-library-fagsoft/-/mooveit-library-fagsoft-0.0.8.tgz#44e897ea52c747838eb64ee5c3096c91cb631b38"
-  integrity sha512-2WR6crsv4LKX+MJyZJWuGnO5RW2w+Z783dpzCdDFwvl1722jNzkc4JabI0mjgU0lHPnG6ipNnfZDLh5a3qEjAQ==
+mooveit-library-fagsoft@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/mooveit-library-fagsoft/-/mooveit-library-fagsoft-0.0.11.tgz#36e36a14d712daff0c5eff79ae74cc141c5fcd1a"
+  integrity sha512-whaaZD3XkUvJgvm+pc8OV4y5ENh2mU+Pm1e8ZZCcu08xD5NuAPympxp/YnxnKGGh/kwylXuqH8yaST+BNVa5kg==
   dependencies:
     react "^16.13.1"
     react-dom "^16.13.1"

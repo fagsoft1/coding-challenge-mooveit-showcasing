@@ -41,8 +41,6 @@ const MarkdownRender = ({filename, componentParents = [], componentChildren = []
                         component: Autocomplete,
                         props: {
                             options: ['Pig', 'Dog', 'Cat', 'Parrot', 'Pinguin', 'Bear', 'Lion', 'Lizard', 'Ant'],
-                            name: "autocomplete",
-                            label: "Favorite Animal"
                         }
                     },
                     InputNumber: {
