@@ -1,44 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Moove It Library
+<p>
+You are in front of the best, never seen, library.
+</p>
+<p>
+Easy to install, easy to use, and even more easy to undertand.
+</p>
 
-## Available Scripts
+<p>
+At the left side, you will see each component. 
+Just have a look by clicking on each one.
+Inside, you will find props, methods and examples about using it.
+</p>
 
-In the project directory, you can run:
+<p>
+To help you to track your progress, a **✓** character will be show in up beside each component's name in menu.
+</p>
 
-### `yarn start`
+## Getting Started
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Prerequisites    
+To install them, just run:
 
-### `yarn test`
+    // with npm
+    npm install react
+    npm install react-dom
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    // with yarn
+    yarn add react
+    yarn add react-dom
 
-### `yarn build`
+### Installing
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Mooveit Showcasing Fagsoft is available from GitHub.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Make a clone from GitHub
+https://github.com/fagsoft1/coding-challenge-mooveit-showcasing.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Install its dependencies
+    yarn install
 
-### `yarn eject`
+#### Run
+    yarn start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Build
+    yarn build
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [ReactJs](https://reactjs.org/) - The web framework used
+* [Redux](https://redux.js.org/) - State Management
+* [npm](https://www.npmjs.com/) - Dependency Management
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Authors
 
-## Learn More
+* **Fabio A García S** - *Initial work* - [Fagsoft1](https://github.com/fagsoft1)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Mooveit Showcasing Fagsoft has been created to complete a coding challenge. 
+Is a project not only to achieve the goal of completing the code challenge but also a way to learn new things.
