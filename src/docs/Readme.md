@@ -1,47 +1,58 @@
-# Welcome to Moove It Library
-<p>
-You are in front of the best, never seen, library.
-</p>
-<p>
-Easy to install, easy to use, and even more easy to undertand.
-</p>
+# Mooveit Library Fagsoft
 
-<p>
-At the left side, you will see each component. 
-Just have a look by clicking on each one.
-Inside, you will find props, methods and examples about using it.
-</p>
-
-<p>
-To help you to track your progress, a **✓** character will be show in up beside each component's name in menu.
-</p>
+The best, never seen, UI components library.
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Prerequisites
+
+These is all the dependencies you need to used this library.
+
+
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+
+To install them, just run:
+
+    // with npm
+    npm install react
+    npm install react-dom
+    // with yarn
+    yarn add react
+    yarn add react-dom
+
 ### Installing
 
-Mooveit Showcasing Fagsoft is available from GitHub.
+Mooveit Library Fagsoft is available as an npm package.
 
-#### Make a clone from GitHub
-https://github.com/fagsoft1/coding-challenge-mooveit-showcasing.git
+    // with npm
+    npm install mooveit-library-fagsoft
 
-#### Install its dependencies
-    yarn install
+    // with yarn
+    yarn add mooveit-library-fagsoft
 
-#### Run
-    yarn start
+Here is a quick example to get you started, it's all you need:
 
-#### Build
-    yarn build
+    import {Button} from 'mooveit-library-fagsoft';
+    <Button text="Hello Moove It!" onClick={()=>alert('You have clicked on me!')} palette='primary' />
+
+
+## Running the tests
+
+    // with npm
+    npm run test
+
+
+### Break down into end to end tests
+
+Each test will check components and their features / behaviors.
 
 ## Built With
 
 * [ReactJs](https://reactjs.org/) - The web framework used
-* [Redux](https://redux.js.org/) - State Management
 * [npm](https://www.npmjs.com/) - Dependency Management
-* [MooveIt Library Fagsoft](https://github.com/fagsoft1/mooveit-library) - UI Library
 
 ## Authors
 
@@ -49,5 +60,5 @@ https://github.com/fagsoft1/coding-challenge-mooveit-showcasing.git
 
 ## Acknowledgments
 
-Mooveit Showcasing Fagsoft has been created to complete a coding challenge. 
+Mooveit Library Fagsoft has been created to complete a coding challenge. 
 Is a project not only to achieve the goal of completing the code challenge but also a way to learn new things.
