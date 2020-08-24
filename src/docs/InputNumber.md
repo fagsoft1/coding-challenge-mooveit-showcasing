@@ -3,6 +3,9 @@
 InputNumber component allow to create an input that fits your basic needs when you are creating forms.
 </p>
 
+## Import
+    import {InputNumber} from 'mooveit-library-fagsoft';
+
 ### Examples
     import {InputNumber} from 'mooveit-library-fagsoft';
     <InputNumber label="Dot Separator" decimalSeparator="."/>

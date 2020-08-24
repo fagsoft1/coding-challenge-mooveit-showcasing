@@ -1,8 +1,11 @@
 # SelectInput
 <p>
-Your TEXT IN HERE
+Select components are used for collecting user provided information from a list of options.
 </p>
 
+## Import
+    import {SelectInput} from 'mooveit-library-fagsoft';
+    
 ## Examples
     import {SelectInput} from 'mooveit-library-fagsoft';
     <SelectInput options: [{value: 1, text: 'Select One'}, {value: 2, text: 'Select Two'}] label='Select Input Multiple' name='opciones_multiples'/>

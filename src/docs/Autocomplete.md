@@ -1,7 +1,11 @@
 # Autocomplete
 <p>
-Your TEXT IN HERE
+The autocomplete is a normal text input enhanced by a panel of suggested options.
 </p>
+
+
+## Import
+    import {Autocomplete} from 'mooveit-library-fagsoft';
 
 ## Examples
     import {Autocomplete} from 'mooveit-library-fagsoft';

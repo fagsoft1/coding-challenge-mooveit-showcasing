@@ -3,6 +3,9 @@
 Buttons allow users to take actions
 </p>
 
+## Import
+    import {Button} from 'mooveit-library-fagsoft';
+
 ## Examples
 
 ### text
